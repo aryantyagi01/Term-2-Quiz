@@ -1,0 +1,28 @@
+<%- include('./partials/header') %>  
+<div class="form_div">
+    <form
+    action="/clucks"
+    class="btn btn-outline-secondary btn-lg btn-block"
+    method='POST'
+    enctype='multipart/form-data'>
+
+</form>
+      <div class="form-group">
+      <label>Username</labeL>
+      <input class="form-control"
+        type="text"
+        name="username"
+        value=""
+        placeholder="e.g.Madam Welminister">
+
+</div>
+
+            <div class="col-6">
+            <input
+              class="btn btn-outline-secondary btn-lg btn-block"
+              enctype='multipart/form-data'
+              type="submit"
+              value="Sign In"
+>
+            </div>
+<%- include('./partials/footer') %>
